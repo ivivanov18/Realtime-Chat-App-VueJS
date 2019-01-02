@@ -11,17 +11,22 @@
           </li>
         </ul>
       </div>
-      <div class="card-actions">
-        <input type="text">
+      <div class="card-action">
+        <NewMessage :name="name"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import NewMessage from "@/components/NewMessage";
+
 export default {
   name: "Chat",
   props: ["name"],
+  components: {
+    NewMessage
+  },
   data() {
     return {};
   }
