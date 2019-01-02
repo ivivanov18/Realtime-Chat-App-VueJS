@@ -1,10 +1,10 @@
 # real-time-chat-app
 
-> A Vue.js project
+> Built from the udemy course from Shaun Pelling "Build Web Apps with Vue JS 2 & Firebase"
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
